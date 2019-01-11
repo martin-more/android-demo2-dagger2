@@ -14,7 +14,7 @@ public class DemoApplication extends Application {
     @Inject
     LocationManager locationManager;
 
-    private ApplicationComponent component;
+    private ApplicationComponent component; // for some reason.
 
     @Override
     public void onCreate() {
